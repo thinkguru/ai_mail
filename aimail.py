@@ -37,7 +37,7 @@ def read(username, password):
 
 def check():
     username = "optimistisu@gmail.com"
-    password = "XXXXXXXX"
+    password = "XXXXXXXXxx"
     read(username, password)
     threading.Timer(60.0, check).start()
 
